@@ -33,6 +33,8 @@ In the first case, the inputs are expected in WGS84 coordinates, in degrees.
 
 ![](/example.png?raw=true)  
 
+Note that this image uses [arc.js](https://github.com/springmeyer/arc.js/) to display the segments between the input points. Sometimes these arcs will have an intersection, sometimes not. The great circles will, however, always have two intersections. This packages returns only one of them: the one that is closest to the intersection as computed in Cartesian space.
+
 # Credits
 
 The geodesic variant is based on the very useful website of [Movable Type Scripts](http://www.movable-type.co.uk/scripts/latlong-vectors.html#intersection)
