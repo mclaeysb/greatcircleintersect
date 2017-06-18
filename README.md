@@ -15,18 +15,19 @@ and use it like so:
 ```javascript
 var greatcircleintersect = require('greatcircleintersect');
 
-// poly = {type: "Feature", geometry: {type: "Polygon", coordinates: [[[1, 10], [11, 13], ...]]}}
+// var point0 = [23, -51];
+// var point1 = [0, 74];
+// var point2 = [103, -13];
+// var point3 = [1, 51];
 
-var se = greatcircleintersect(poly);
+var gci = greatcircleintersect(poly);
 
 // isects = {type: "Feature", geometry: {type: "MultiPoint", coordinates: [[5, 8], [7, 3], ...]}}
 ```
 
-Where `poly` is a GeoJSON Polygon, and `isects` is a GeoJSON MultiPoint.
+You can set a boolean variable to specify the intersection should be computed in the sphere (default) or in the Cartesian space of the coordinates.
 
-Finally, you can set a boolean variable to specify if a spatial index should be used to filter for possible intersections.
-
-Together, this may look like so:
+In the first case, the inputs are expected in WGS84 coordinates, in degrees.
 
 # Credits
 
