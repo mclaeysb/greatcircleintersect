@@ -1,0 +1,28 @@
+{
+  "name": "greatcircleintersect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mclaeysb/greatcircleintersect.git"
+  },
+  "keywords": [
+    "polygon",
+    "intersection",
+    "cartesian",
+    "euclidean",
+    "nvector"
+  ],
+  "author": {
+    "name": "Manuel Claeys Bouuaert"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mclaeysb/greatcircleintersect/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "arc": "^0.1.0"
+  },
+  "homepage": "https://github.com/mclaeysb/greatcircleintersect#readme"
+}
