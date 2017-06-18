@@ -22,7 +22,7 @@ var greatcircleintersect = require('greatcircleintersect');
 
 var gci = greatcircleintersect(poly);
 
-// isects = {type: "Feature", geometry: {type: "MultiPoint", coordinates: [[5, 8], [7, 3], ...]}}
+// gci = [ 11.156998734005295, 50.66432074788117 ]
 ```
 
 You can set a boolean variable to specify the intersection should be computed in the sphere (default) or in the Cartesian space of the coordinates.
