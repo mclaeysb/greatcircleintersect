@@ -20,7 +20,7 @@ var greatcircleintersect = require('greatcircleintersect');
 // var point2 = [103, -13];
 // var point3 = [1, 51];
 
-var gci = greatcircleintersect(poly);
+var gci = greatcircleintersect(point0, point1, point2, point3, true);
 
 // gci = [ 11.156998734005295, 50.66432074788117 ]
 ```
