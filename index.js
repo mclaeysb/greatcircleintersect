@@ -1,7 +1,7 @@
 module.exports = function(point0, point1, point2, point3, useGeodesic) {
 
   if (equalArrays(point0, point1) | equalArrays(point2, point3)) throw new Error("The input points must be distinct");
-  if (equalArrays(point0, point1) | equalArrays(point2, point3)) throw new Error("The input points may not be opposite");
+  if (equalArrays(point0, opposite(point1)) | equalArrays(point2, opposite(point3))) throw new Error("The input points may not be opposite");
   if (useGeodesic == undefined) useGeodesic = 1;
 
   if (!useGeodesic) {
