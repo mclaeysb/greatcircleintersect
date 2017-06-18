@@ -29,6 +29,10 @@ You can set a boolean variable to specify the intersection should be computed in
 
 In the first case, the inputs are expected in WGS84 coordinates, in degrees.
 
+# Example
+
+![](/example.png?raw=true)  
+
 # Credits
 
 The geodesic variant is based on the very useful website of [Movable Type Scripts](http://www.movable-type.co.uk/scripts/latlong-vectors.html#intersection)
